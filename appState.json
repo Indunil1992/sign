@@ -1,0 +1,102 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "6ffb3463-4e26-40cf-a412-0e4c042586d9": {
+        "id": "6ffb3463-4e26-40cf-a412-0e4c042586d9",
+        "parent": null,
+        "name": "zaqwsxx.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "zaqwsxx.js",
+        "cursor": {
+          "lineNumber": 2,
+          "column": 5
+        },
+        "config": {
+          "runtime": "nodejs10.x",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": [
+          {
+            "resourceName": "apigapSoutheast1indunilcalteststgingindget",
+            "config": {}
+          }
+        ]
+      }
+    },
+    "openFiles": [
+      "6ffb3463-4e26-40cf-a412-0e4c042586d9"
+    ],
+    "currentFileId": "6ffb3463-4e26-40cf-a412-0e4c042586d9",
+    "resources": {
+      "apigapSoutheast1indunilcalteststgingindget": {
+        "name": "apigapSoutheast1indunilcalteststgingindget",
+        "type": "API_GATEWAY",
+        "config": {
+          "selectedRegion": "ap-southeast-1",
+          "apiMode": 1,
+          "apiName": "indunilcal",
+          "apiId": "8hstb337g4",
+          "endpointType": "REGIONAL",
+          "rootResourceId": "5cr8b5rbnj",
+          "existingResources": {
+            "/test": "1aky2r",
+            "/": "5cr8b5rbnj",
+            "/test/stging/ind": "g7bynt",
+            "/test/stging": "r5a0q0"
+          },
+          "resourceMode": 1,
+          "resourcePath": "/test/stging/ind",
+          "resourceName": "test/stging/ind",
+          "resourceId": "g7bynt",
+          "restMethod": "GET",
+          "proxyIntegration": false,
+          "enableCORS": false,
+          "stageMode": 1,
+          "stageName": "qa",
+          "stageDeploymentId": "81oy8o",
+          "mode": 1
+        }
+      }
+    },
+    "customTemplate": {
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "sign",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "ap-southeast-1",
+    "platform": "AWS",
+    "language": "nodejs",
+    "platformRegions": {},
+    "lastSave": 1582872115840
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "sign",
+      "url": "https://github.com/Indunil1992/sign"
+    }
+  }
+}
